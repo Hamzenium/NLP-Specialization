@@ -50,7 +50,7 @@ def extract_features(tweet, freqs):
     assert(x.shape == (1, 3))
     return x
 
-def predict_tweet(tweet, freqs, theta):
+def predicted_tweet(tweet, freqs, theta):
     '''
     Input: 
         tweet: a string
